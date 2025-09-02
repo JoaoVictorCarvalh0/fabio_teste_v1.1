@@ -26,6 +26,7 @@ Pacote cryptography:
 ▶️ Uso rápido
 
 1) Rodar o menu:
+
     python menu.py
 
 2) Opções do menu:
@@ -39,7 +40,7 @@ Pacote cryptography:
     Certifique-se de gerar as chaves antes de tentar criptografar ou descriptografar mensagens.
     O arquivo mensagem_criptografada.txt será sobrescrito a cada nova criptografia.
     A chave privada deve ser mantida em segurança, pois é necessária para descriptografar as mensagens.
-    
+
 🛠️ Tecnologias Utilizadas
     Python: Linguagem de programação principal.
     Cryptography: Biblioteca para operações criptográficas.
