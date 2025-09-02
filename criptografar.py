@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from pathlib import Path
 import base64
 
@@ -36,7 +35,6 @@ def executar_criptografia(msg: str | None = None):
     cipher = criptografar(msg, pub)
     b64 = base64.b64encode(cipher).decode("utf-8")
 
-    # salva em TXT (base64 em texto)
     with ARQ_MSG_TXT.open("w", encoding="utf-8") as f:
         f.write(b64)
 

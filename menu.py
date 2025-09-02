@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import sys
 
 from gerador_de_chaves import gerar_novas_chaves
